@@ -34,6 +34,11 @@ app.post('/posts', async (req, res) => {
   })
 })
 
+app.post('/events', async (req, res) => {
+  console.log('received event', req.body.type)
+})
+
 app.listen(4000, () => {
   console.log('listening on: http://localhost:4000')
 })
+
