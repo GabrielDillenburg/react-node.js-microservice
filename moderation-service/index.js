@@ -8,8 +8,7 @@ app.use(bodyParser.json())
 
 app.post('/events', async (req, res) => {
   const { data, type } = req.body
-
-  if (type === 'CommentedCreated') {
+  if (type === 'CommentCreated') {
     const status = data.content.includes('orange') ? 'rejected': 'approved'
 
     await axios.post('http://localhost:4005/events', {
