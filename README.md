@@ -1,4 +1,4 @@
- # Simple microservices project to demonstrate the flow of event-based architecture.
+ # Simple microservices project to demonstrate the flow of event-based architecture behind the scenes.
 
  ## Stack and dependencies: 
   - React.js
