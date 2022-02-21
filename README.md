@@ -7,7 +7,9 @@
   - Cors
   - Axios
 - 
- inside of each project, run ```npm start``` to start the server.
+ 
+ > inside of each project, run ```npm start``` to start the server.
+
 ## Application flow:
   
   <img src="./assets/Event-driven%20architecture.svg"/>
