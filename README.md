@@ -1,6 +1,8 @@
  # Simple microservices project to demonstrate the flow of event-based architecture behind the scenes.
 
- ## Stack and dependencies: 
+ ## Stack and dependencies:
+  - Docker
+  - Kubernetes 
   - React.js
   - Node.js
   - Express
