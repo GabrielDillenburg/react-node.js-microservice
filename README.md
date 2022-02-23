@@ -8,8 +8,13 @@
   - Express
   - Cors
   - Axios
+
+
  
- > inside of each project, run ```npm start``` to start the server.
+This project was build with Docker and Kubernetes. So, first you need to install [kuberbetes] (https://kubernetes.io/docs/tasks/tools/), [Doker] (https://docs.docker.com/engine/install/) and [skaffold] (https://skaffold.dev/docs/install/) to start the services.
+
+
+After install dependencies, in the root directory run the following command: ```skaffold dev``` to run all applications.
 
 ## Application flow:
   
