@@ -2,7 +2,7 @@
 
  ## Stack and dependencies:
   - Docker
-  - Kubernetes 
+  - Kubernetes | Skaffold
   - React.js
   - Node.js
   - Express
